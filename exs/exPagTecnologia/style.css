@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "idroid";
+    src: url("idroid.otf") format('opentype');
+    font-weight: normal;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#006bad;
+}
+
+header{
+    background-image: linear-gradient(to top, #02253d ,#035a90, #1172af);
+    color: white;
+    text-align: center;   
+    margin: -20px -10px 0px -10px;
+    padding: 30px;
+}
+
+nav{
+    background-color: #012d4b ;
+    margin: -10px;
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition-duration: 1s;
+    font-weight: bold;
+}
+
+nav a:hover{
+    padding: 5px;
+    background-color: #1172af;
+    border-radius: 5px;
+}
+
+main h1{
+    font-family: "idroid";
+    text-align: left;
+    color: #1D4761;
+}
+
+main h2{
+    font-family: "idroid";
+    text-align: left;
+    color: #175073;
+    background-image: linear-gradient(to right, #006bad99, transparent);
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    margin: -10px 140px 10px 140px;
+    text-align: center;
+    box-shadow: 0px 0px 8px black;
+}
+
+main p{
+    
+    text-align:justify ;
+    text-indent: 30px;
+    font-size: 1.1em;
+    line-height: 2em;
+}
+main a{
+    text-decoration: none;
+    color: #003C61;
+    font-weight: bolder;
+    background-color: #30b2e98c;
+}
+
+main a:hover{
+    text-decoration: underline;
+}
+
+main div{
+    text-align: center;
+}
+
+img{
+    width: 70%;
+    margin: auto;
+}
+
+#bugD{
+    max-width: 350px;
+}
+
+main iframe{
+    width: 800px; 
+    height: 500px; 
+}
+
+#video{
+    background-color: #002F7A;
+    padding: 15px;
+    margin: -15px;
+
+}
+
+#video iframe{
+    text-align: center;
+}
+
+.extra h2{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    margin: -5px;
+    padding: 10px;
+    color: white;
+    background-image:linear-gradient(to right, #0054AD, #3877bbde , #4ba0fabf);
+    text-align: left;
+}
+
+.extra{
+    margin: 35px 20px 20px 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #4b8efae9;
+}
+
+footer{
+    margin: -10px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    background-color: #002F7A;
+}

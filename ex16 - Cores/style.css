@@ -1,0 +1,33 @@
+@charset "UTF- 8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height:  100%;*/
+}
+
+body{
+    background-image: linear-gradient(to right, #C7FFED, #D8FFDB);
+}
+main{
+    background-color: white;
+    border-radius: 10px; /* deixa as bordas arredondadas*/
+
+   /*parametros 1 - pro lado 2 - pra baixo 3 - quanto vai espalhar 4 - cor/transparencia */
+    box-shadow: 5px 5px 15px #7e9580ac;
+    width: 790px;
+    padding: 10px;
+    margin: auto; /* Ele sempre fica no meio, independente do tamanho da tela*/
+}
+h1{
+    text-align: center;
+    color: #015958;
+    text-shadow: 1px 1px 1px #023130;
+}
+
+h2{
+    color: #008F8C
+}
+p{
+    text-align: justify;
+}
+
