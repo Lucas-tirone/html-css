@@ -10,7 +10,6 @@
 }
 
 body{
-
 }
 
 :root{
@@ -28,6 +27,7 @@ header{
 }
 
 header h1{
+    font-variant: small-caps;
     font-family: --font3; 
     color: white;
     font-size: 4em;
@@ -46,13 +46,17 @@ header a:hover{
     text-decoration: underline;
 }
 
+div{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
 div p{
     font-family: var(--font3);  
-    padding: 10px 10px 10px 10px;
     font-size: 3em;
 }
 
-.foto1{
+#foto1{
     height: 100vh;
     background: black url(imgs/Wallpaper4k-ColorindoNuvens-2.jpg) right center no-repeat fixed;
     background-size: cover;
@@ -63,15 +67,15 @@ div p{
     position: relative;
 }
 
-.foto1 div{
-    width: auto;
-    background-color: rgba(0, 0, 0, 0.496);
+#foto1 div{
+    background-color: rgba(0, 0, 0, 0.315);
     color: white;
     padding: 10px;
     position: absolute;
     top: 10%;
     left: 20px;
-
+    background-position: right center;
+    margin: auto;
 }
 
 .espaço{
