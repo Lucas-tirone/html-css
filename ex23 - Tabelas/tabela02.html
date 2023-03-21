@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 500px;
+            position: relative;
+        }
+
+        thead tr th{
+            position: sticky; /* Aqui o conteudo "Desce" junto com a rolagem de pagina*/
+            top: -1px;
+            background-color: gray;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tbody tr:nth-child(even){
+            background-color: lightgray;
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas grandes</h1>
+    <!--
+        Anatomia de tabelas grandes 
+        Table
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+
+    <table>
+        <caption>População das Unidades Ferativas</caption>
+        <thead >
+            <tr>
+                <th scope="col">Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td>605 761</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td>881 935</td>
+            </tr>
+            <tr>
+                <td>Espirito Santo</td>
+                <td>4 018 150</td>
+            </tr>
+            <tr>
+                <td>Paraiba</td>
+                <td>4 018 127</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>14 873 094</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 674</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td>2 298 696</td>
+            </tr>
+            <tr>
+                <td>Tocantis</td>
+                <td>1 572 866</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td>8 602 865</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td>7 018 354</td>
+            </tr>
+            <tr>
+                <td>Amazobas</td>
+                <td>4 144 597</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td>3 337 357</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td><strong>210.147.125</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident reiciendis consectetur voluptatum consequatur doloremque sed rerum eos commodi modi! Voluptatem unde sed minus porro eligendi quae incidunt asperiores perferendis quisquam?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum atque illum maiores adipisci pariatur dicta nihil necessitatibus minus sunt repellat repellendus, saepe velit in voluptatibus a aliquam accusantium? <br> Reprehenderit, ullam?
+    </p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis at neque quisquam voluptates corrupti quis amet ut debitis officia veniam laboriosam, rem ipsa, explicabo animi blanditiis dolorum obcaecati maiores od <br> io?
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ab ea laudantium repellat cum quas quidem reprehenderit quisquam nesciunt autem. Nemo ducimus ad laborum nam corporis laudantium et ipsam facere! <br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, neque porro rem blanditiis, nam voluptatem nobis eligendi reprehenderit sint officiis facere nemo harum nesciunt magnam assumenda dignissimos autem. Maiores, possimus? <br>
+
+
+        <br>
+    </p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque ab veniam, porro at officiis commodi aut quae sunt, a molestiae nobis placeat sapiente labore laudantium perspiciatis non corrupti! Exercitationem, ipsam. <br>
+
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam veniam, expedita magnam quidem atque sint nostrum nam fugit sequi optio vero corrupti. Corporis aut non ut quo doloribus dolor totam.
+    <br>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident reiciendis consectetur voluptatum consequatur doloremque sed rerum eos commodi modi! Voluptatem unde sed minus porro eligendi quae incidunt asperiores perferendis quisquam?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum atque illum maiores adipisci pariatur dicta nihil necessitatibus minus sunt repellat repellendus, saepe velit in voluptatibus a aliquam accusantium? <br> Reprehenderit, ullam?
+    </p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis at neque quisquam voluptates corrupti quis amet ut debitis officia veniam laboriosam, rem ipsa, explicabo animi blanditiis dolorum obcaecati maiores od <br> io?
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ab ea laudantium repellat cum quas quidem reprehenderit quisquam nesciunt autem. Nemo ducimus ad laborum nam corporis laudantium et ipsam facere! <br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, neque porro rem blanditiis, nam voluptatem nobis eligendi reprehenderit sint officiis facere nemo harum nesciunt magnam assumenda dignissimos autem. Maiores, possimus? <br>
+
+
+        <br>
+    </p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque ab veniam, porro at officiis commodi aut quae sunt, a molestiae nobis placeat sapiente labore laudantium perspiciatis non corrupti! Exercitationem, ipsam. <br>
+
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam veniam, expedita magnam quidem atque sint nostrum nam fugit sequi optio vero corrupti. Corporis aut non ut quo doloribus dolor totam.
+    <br>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident reiciendis consectetur voluptatum consequatur doloremque sed rerum eos commodi modi! Voluptatem unde sed minus porro eligendi quae incidunt asperiores perferendis quisquam?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum atque illum maiores adipisci pariatur dicta nihil necessitatibus minus sunt repellat repellendus, saepe velit in voluptatibus a aliquam accusantium? <br> Reprehenderit, ullam?
+    </p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis at neque quisquam voluptates corrupti quis amet ut debitis officia veniam laboriosam, rem ipsa, explicabo animi blanditiis dolorum obcaecati maiores od <br> io?
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ab ea laudantium repellat cum quas quidem reprehenderit quisquam nesciunt autem. Nemo ducimus ad laborum nam corporis laudantium et ipsam facere! <br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, neque porro rem blanditiis, nam voluptatem nobis eligendi reprehenderit sint officiis facere nemo harum nesciunt magnam assumenda dignissimos autem. Maiores, possimus? <br>
+
+
+        <br>
+    </p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque ab veniam, porro at officiis commodi aut quae sunt, a molestiae nobis placeat sapiente labore laudantium perspiciatis non corrupti! Exercitationem, ipsam. <br>
+
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam veniam, expedita magnam quidem atque sint nostrum nam fugit sequi optio vero corrupti. Corporis aut non ut quo doloribus dolor totam.
+    <br>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident reiciendis consectetur voluptatum consequatur doloremque sed rerum eos commodi modi! Voluptatem unde sed minus porro eligendi quae incidunt asperiores perferendis quisquam?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum atque illum maiores adipisci pariatur dicta nihil necessitatibus minus sunt repellat repellendus, saepe velit in voluptatibus a aliquam accusantium? <br> Reprehenderit, ullam?
+    </p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis at neque quisquam voluptates corrupti quis amet ut debitis officia veniam laboriosam, rem ipsa, explicabo animi blanditiis dolorum obcaecati maiores od <br> io?
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ab ea laudantium repellat cum quas quidem reprehenderit quisquam nesciunt autem. Nemo ducimus ad laborum nam corporis laudantium et ipsam facere! <br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, neque porro rem blanditiis, nam voluptatem nobis eligendi reprehenderit sint officiis facere nemo harum nesciunt magnam assumenda dignissimos autem. Maiores, possimus? <br>
+
+
+        <br>
+    </p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque ab veniam, porro at officiis commodi aut quae sunt, a molestiae nobis placeat sapiente labore laudantium perspiciatis non corrupti! Exercitationem, ipsam. <br>
+
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam veniam, expedita magnam quidem atque sint nostrum nam fugit sequi optio vero corrupti. Corporis aut non ut quo doloribus dolor totam.
+    <br>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident reiciendis consectetur voluptatum consequatur doloremque sed rerum eos commodi modi! Voluptatem unde sed minus porro eligendi quae incidunt asperiores perferendis quisquam?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum atque illum maiores adipisci pariatur dicta nihil necessitatibus minus sunt repellat repellendus, saepe velit in voluptatibus a aliquam accusantium? <br> Reprehenderit, ullam?
+    </p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis at neque quisquam voluptates corrupti quis amet ut debitis officia veniam laboriosam, rem ipsa, explicabo animi blanditiis dolorum obcaecati maiores od <br> io?
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ab ea laudantium repellat cum quas quidem reprehenderit quisquam nesciunt autem. Nemo ducimus ad laborum nam corporis laudantium et ipsam facere! <br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, neque porro rem blanditiis, nam voluptatem nobis eligendi reprehenderit sint officiis facere nemo harum nesciunt magnam assumenda dignissimos autem. Maiores, possimus? <br>
+
+
+        <br>
+    </p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque ab veniam, porro at officiis commodi aut quae sunt, a molestiae nobis placeat sapiente labore laudantium perspiciatis non corrupti! Exercitationem, ipsam. <br>
+
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam veniam, expedita magnam quidem atque sint nostrum nam fugit sequi optio vero corrupti. Corporis aut non ut quo doloribus dolor totam.
+    <br>
+</body>
+</html>
